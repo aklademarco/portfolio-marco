@@ -69,9 +69,11 @@ body{
 
 .navbar a:hover,
 .navbar a.active{
-    color: var(--main-color);
     border-bottom: 2px solid var(--main-color);
+        color: #00bfff; 
+        font-weight: bold;
 }
+    
 
 #menu-icon{
     font-size: 3.6rem;
