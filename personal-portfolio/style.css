@@ -10,15 +10,12 @@
 }
 
 :root {
-    --bg-color: #08080808;
+    --bg-color: #36454F;
     --second-bg-color: #131313;
     --text-color: #fff;
     --main-color: #06b5f4ae;
 }
 html{
-  
-
-    background-color: #201e1e;
     font-size: 62.5%;
     overflow-x: hidden;
 }
@@ -34,7 +31,7 @@ body{
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background: rgba(0, 0, 0, 0.3);
+    background: var(--second-bg-color);
     backdrop-filter: blur(50px);
     display: flex;
     justify-content: space-between;
@@ -636,9 +633,9 @@ home-img{
 
 .footer {
     width: 100%;
-    background-color: #1f1f1f;
     color: #fff;
     font-family: 'Segoe UI', sans-serif;
+    background-color: var(--second-bg-color);
   }
   
   .footer-container {
@@ -700,7 +697,7 @@ home-img{
   }
   
   .footer-socials .social-icons a {
-    font-size: 28px; /* Bigger icons */
+    font-size: 28px; 
     color: #fff;
     transition: transform 0.3s ease, color 0.3s ease;
   }
