@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+
+html{
+
+  overflow-x: hidden;
+}
+
+body{
+  background-color: #36454F;
+  overflow-x: hidden;
+}
+
+.cards-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+  width: 300px;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  background: white;
+  overflow: hidden;
+}
+
+.card-header {
+  background: #f4c430;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.card-header i {
+  font-size: 1.5rem;
+}
+
+.weather-body,
+.currency-body,
+.buy-body {
+  padding: 20px;
+}
+
+.forecast {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.input-group {
+  /* margin: 10px 0; */
+  width: 100%;
+  padding: 2rem 3rem;
+}
+
+.input-group label {
+  display: block;
+  font-weight: 500;
+}
+
+.input-group select,
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.result {
+  margin-top: 10px;
+  padding: 2rem 3rem;
+}
+
+.history-link {
+  display: block;
+  text-align: right;
+  color: #e6a400;
+  margin-top: 10px;
+  font-weight: 500;
+  padding: 2rem 3rem;
+}
+
+.buy-checker .buy-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+}
+
+.buy-checker label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.buy-checker input,
+.buy-checker select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.notify-btn{
+  background-color: #f4c430;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.notify-btn:hover {
+  background-color: #e6a400;
+  border-radius: 15px;
+}
+
+
+@media (max-width: 768px) {
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+}
+
+
+
