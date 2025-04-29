@@ -42,7 +42,7 @@ body{
 }
 
 .logo{
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: var(--text-color);
     font-weight: 600;
     cursor: pointer;
@@ -61,7 +61,7 @@ body{
 
 
 .navbar a{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: var(--text-color);
     margin-left: 4rem;
     transition: 0.3s ease;
@@ -106,7 +106,6 @@ strong{
     justify-content: center;
     align-items: baseline;
     text-align: left;
-    margin-top: -3rem;
 
 }
 
@@ -163,6 +162,69 @@ home-img{
 }
 
 
+.btn {
+  display: inline-block;
+  padding: 4px 8px;
+  font: 500 16px/1.5 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background: #00bfff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgba(156, 203, 219, 0.1);
+  transition: 0.2s;
+  user-select: none;
+}
+
+.btn:hover {
+  background: #5faecb;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(133, 185, 207, 0.1);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn:focus {
+  outline: 2px solid #4c8cbe;
+  outline-offset: 2px;
+}
+
+.btn:disabled, .btn.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #059ecc;
+  border: 1px solid #2394bd;
+}
+
+.btn-secondary:hover {
+  background: rgba(15, 23, 42, 0.05);
+}
+
+.btn-accent {
+  background: #00bfff;
+}
+
+.btn-accent:hover {
+  background: #00bfff;
+}
+
+.btn-sm {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.btn-lg {
+  padding: 12px 24px;
+  font-size: 12px;
+}
 
 
 
@@ -856,17 +918,11 @@ home-img{
 .project-links {
   display: flex;
   gap: 15px;
+  
 }
 
-.project-icon-link {
-  color: #fff;
-  font-size: 1.2rem;
-  transition: color 0.3s ease;
-}
 
-.project-icon-link:hover {
-  color: #00bfff;
-}
+
 
 /* Responsive Design */
 @media (max-width: 992px) {
