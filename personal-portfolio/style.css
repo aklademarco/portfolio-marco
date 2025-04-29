@@ -1195,3 +1195,81 @@ home-img{
     }
   }
   
+/* Education Section Responsive */
+@media (max-width: 768px) {
+    .education-background {
+        padding: 30px 15px;
+    }
+
+    .education-content {
+        padding: 0 10px;
+    }
+
+    .education-content h2 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    .education-item {
+        padding: 15px 20px;
+        margin-bottom: 20px;
+    }
+
+    .education-item h3 {
+        font-size: 2rem;
+        margin-bottom: 5px;
+    }
+
+    .details, .date {
+        font-size: 1.6rem;
+        margin-bottom: 5px;
+    }
+
+    .description {
+        font-size: 1.4rem;
+    }
+}
+
+/* Projects Section Responsive */
+@media (max-width: 768px) {
+    .projects {
+        padding: 50px 0;
+    }
+
+    .projects-container {
+        padding: 0 15px;
+        gap: 20px;
+    }
+
+    .project-card {
+        margin-bottom: 20px;
+    }
+
+    .project-content {
+        padding: 15px;
+    }
+
+    .project-title {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    .project-description {
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+    }
+
+    .project-tags {
+        gap: 8px;
+    }
+
+    .project-tag {
+        font-size: 0.7rem;
+        padding: 4px 8px;
+    }
+
+    .project-footer {
+        padding: 10px 15px;
+    }
+}
+  
