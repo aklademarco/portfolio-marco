@@ -152,6 +152,7 @@ home-img{
     box-shadow: 0 0 50px var(--main-color);
     box-shadow: 0 0 100px var(--main-color);
               
+    
 }
 .home-content p{
     font-size: 1.6rem;
@@ -388,7 +389,6 @@ home-img{
     max-width: 500px;
     margin: 0 auto;
   }
-  
   
 }
 
@@ -1139,59 +1139,33 @@ home-img{
   /* Responsive: Stack items on small screens */
   @media (max-width: 768px) {
     .footer-container {
+        display: flex;
         flex-direction: column;
-        text-align: center;
-        gap: 0;
-        padding: 5px 15px;
+        align-items: center;
+        gap: 2px; 
+        padding: 5px; 
     }
 
     .footer-about,
     .footer-links,
     .footer-socials {
-        margin: 0;
-        padding: 0.25rem 0;
-    }
-
-    .footer-about h2 {
-        font-size: 1.5rem;
-        margin-bottom: 0.2rem;
-    }
-
-    .footer-about p {
-        font-size: 1rem;
-        margin-bottom: 0.2rem;
-        padding: 0 10px;
-    }
-
-    .footer-links h3,
-    .footer-socials h3 {
-        font-size: 1.2rem;
-        margin: 0.2rem 0;
+        margin: 5px 0; 
+        padding: 5px;
+        text-align: center; 
     }
 
     .footer-links ul {
-        margin: 0.2rem 0;
         padding: 0;
+        margin: 0;
     }
 
     .footer-links ul li {
-        margin: 0.15rem 0;
-    }
-
-    .footer-socials {
-        margin-bottom: 0.2rem;
-    }
-
-    .footer-socials .social-icons {
-        justify-content: center;
-        gap: 8px;
-        margin: 0.2rem auto;
-        padding: 0;
+        margin-bottom: 3px; 
     }
 
     .footer-bottom {
-        margin-top: 0.2rem;
-        padding: 5px 15px;
+        margin-top: 10px; 
+        padding: 10px; 
     }
   }
   
@@ -1272,4 +1246,3 @@ home-img{
         padding: 10px 15px;
     }
 }
-  
